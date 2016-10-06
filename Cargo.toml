@@ -1,6 +1,9 @@
 [package]
 name = "timeit"
+description = "minimalistic timing application"
 version = "0.1.1"
+license = "MIT"
+repository = "https://github.com/marinintim/timeit"
 authors = ["Marinin Tim <mt@marinin.xyz>"]
 
 [dependencies]
