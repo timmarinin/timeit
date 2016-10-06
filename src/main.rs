@@ -75,8 +75,7 @@ fn write_current_time(path: &Path) -> io::Result<()> {
     let now = get_current_time();
     let mut file = try!(File::create(path));
     let out = format!("{} {}", now.sec, now.nsec);
-    try!(file.write_all(out.as_bytes()));
-    Ok(())
+    file.write_all(out.as_bytes())
 }
 
 fn handle_existing_timer(task: &String, path: &Path, prev_time: String) {
