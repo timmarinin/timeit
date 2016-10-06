@@ -3,7 +3,7 @@ timeit
 
 Minimalist timing application, useful for profiling your init scripts.
 
-## Usage 
+## Usage
 
 ```
 $ timeit 'demo' # starts timer
@@ -15,6 +15,6 @@ demo 1896649916
 
 ## License
 
-timeis is MIT licensed.
+timeit is MIT licensed.
 
 &copy; 2016, [Marinin Tim](http://marinin.xyz)
