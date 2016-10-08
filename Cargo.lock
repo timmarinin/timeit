@@ -1,6 +1,6 @@
 [root]
-name = "timeit"
-version = "0.1.0"
+name = "timeit-tool"
+version = "0.1.5"
 dependencies = [
  "time 0.1.35 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
