@@ -24,7 +24,7 @@ fn assure_directory() {
             ErrorKind::AlreadyExists => {},
             _ => println!("Could not create a directory {}! {}", path.display(), why)
         },
-        Ok(_) => println!("Created directory!")
+        Ok(_) => {}
   };
 }
 
